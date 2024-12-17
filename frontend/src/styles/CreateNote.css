@@ -1,0 +1,78 @@
+.create-note-container {
+    width: 100%;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+  }
+  
+  .create-note-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .create-note-container label {
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  #create-note-title {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  #create-note-content {
+    padding: 10px;
+    height: 150px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+    resize: vertical; /* Allows resizing */
+  }
+  
+  .create-note-container button {
+    padding: 10px 15px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .create-note-container button[type="submit"] {
+    background-color: #3498db;
+    color: white;
+  }
+  
+  .create-note-container button:hover {
+    background-color: #2980b9;
+  }
+  
+  .create-note-container button[type="button"] {
+    background-color: #e74c3c;
+    color: white;
+  }
+  
+  .create-note-container button[type="button"]:hover {
+    background-color: #c0392b;
+  }
+  
+  .create-note-container .message {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #e0f7fa;
+    color: #00796b;
+    font-size: 16px;
+  }
+  

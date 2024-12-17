@@ -1,0 +1,66 @@
+/* Contacts.css */
+
+.contacts-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f4f4f4;
+    text-align: center;
+  }
+  
+  .contacts-container h2 {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .contacts-container table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .contacts-container table, 
+  .contacts-container th, 
+  .contacts-container td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .contacts-container th {
+    background-color: #007BFF;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .contacts-container tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .contacts-container tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .contacts-container button {
+    padding: 10px 15px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .contacts-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  .contacts-container .actions button {
+    margin: 0;
+  }
+  
